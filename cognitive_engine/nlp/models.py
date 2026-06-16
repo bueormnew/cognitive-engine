@@ -31,8 +31,8 @@ class CognitiveModel:
                 config_dict = json.load(f)
 
         # En un escenario real, cargaríamos el state_dict de los submodelos (StableCore, etc)
-        # Aquí reconstruimos el engine con la configuración.
-        engine = EngineBuilder(config_path="configs/default.yaml").build_v2()
+        # Aquí reconstruimos el engine con la configuración por defecto
+        engine = EngineBuilder().build_v2()
 
         # Simulamos la carga de pesos si existen
         weights_path = path / "pytorch_model.bin"
@@ -74,7 +74,7 @@ class CognitiveTranslator(CognitiveModel):
     """
     def __init__(self, engine=None, source_lang="en", target_lang="es"):
         if engine is None:
-            engine = EngineBuilder(config_path="configs/default.yaml").build_v2()
+            engine = EngineBuilder().build_v2()
         config_dict = {"source_lang": source_lang, "target_lang": target_lang, "task": "translation"}
         super().__init__(engine, config_dict)
         self.source_lang = source_lang
@@ -99,7 +99,7 @@ class CognitiveEncoder(CognitiveModel):
     """
     def __init__(self, engine=None):
         if engine is None:
-            engine = EngineBuilder(config_path="configs/default.yaml").build_v2()
+            engine = EngineBuilder().build_v2()
         config_dict = {"task": "encoding"}
         super().__init__(engine, config_dict)
 
