@@ -40,6 +40,7 @@ STOPWORDS = {
 
 KNOWLEDGE_HINTS = ("aprend", "discover", "descubr", "means", "significa", "detecta", "detects", "prefiero")
 CORRECTION_HINTS = ("actually", "correccion", "correct", "en realidad", "mejor dicho", "not", "no era")
+TRANSLATION_HINTS = ("translate", "translation", "traduc", "->", "significa", "means")
 
 
 def normalize_text(text: str) -> str:
@@ -64,6 +65,8 @@ def detect_intent(text: str) -> str:
         return "question"
     if "prefiero" in lowered or "prefer" in lowered:
         return "preference"
+    if any(marker in lowered for marker in TRANSLATION_HINTS):
+        return "knowledge_share"
     if any(marker in lowered for marker in KNOWLEDGE_HINTS):
         return "knowledge_share"
     if len(lowered.split()) <= 3:

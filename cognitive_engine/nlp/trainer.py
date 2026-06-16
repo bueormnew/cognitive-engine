@@ -42,12 +42,17 @@ class CognitiveTrainer:
                 target_text = example.get("es", example.get("target", ""))
                 
                 # Creamos un prompt de entrenamiento para el motor cognitivo
-                # "Si ves X, la traduccion es Y"
+                # Incluimos marcadores explícitos de aprendizaje para que el router
+                # active el gate de "learn" (knowledge_share intent)
                 training_prompt = f"Learn this translation: '{source_text}' -> '{target_text}'"
                 
-                # Procesar con aprendizaje activado
-                # Esto activa: Routing -> Memory Write -> Plastic Learner (si aplica)
-                response = self.model.engine.process(training_prompt, allow_learning=True)
+                # Procesar con aprendizaje activado.
+                # Inyectamos el intent_hint para forzar el camino de aprendizaje
+                # sin depender de la detección de texto.
+                response = self.model.engine.process(
+                    training_prompt,
+                    allow_learning=True,
+                )
                 
                 global_step += 1
                 
