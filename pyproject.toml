@@ -5,7 +5,7 @@ description = "Librería NLP basada en Arquitectura Cognitiva V2 (Aprendizaje Co
 readme = "README.md"
 requires-python = ">=3.12"
 authors = [
-    { name = "Gerson", email = "author@example.com" }
+    { name = "bueormnew", email = "dalusx64@gmail.com" }
 ]
 dependencies = [
     "matplotlib>=3.10",
