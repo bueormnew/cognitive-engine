@@ -40,6 +40,5 @@ jobs:
         # o puedes usar un token tradicional configurando el secret PYPI_API_TOKEN.
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
-          # Descomenta la siguiente línea y añade el secret en GitHub si prefieres usar Token:
-          # password: ${{ secrets.PYPI_API_TOKEN }}
+          password: ${{ secrets.PYPI_API_TOKEN }}
           skip-existing: true
