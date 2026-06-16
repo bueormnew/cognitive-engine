@@ -4,6 +4,7 @@ import torch
 from pathlib import Path
 from cognitive_engine import EngineBuilder
 from cognitive_engine.core.engine import CognitiveEngine
+from cognitive_engine.config.schema import EngineConfig
 
 class CognitiveModel:
     """
@@ -31,8 +32,10 @@ class CognitiveModel:
                 config_dict = json.load(f)
 
         # En un escenario real, cargaríamos el state_dict de los submodelos (StableCore, etc)
-        # Aquí reconstruimos el engine con la configuración por defecto
-        engine = EngineBuilder().build_v2()
+        # Aquí reconstruimos el engine con la configuración por defecto o la cargada
+        device = "cuda" if torch.cuda.is_available() else "cpu"
+        config = EngineConfig(device=device)
+        engine = EngineBuilder(config=config).build_v2()
 
         # Simulamos la carga de pesos si existen
         weights_path = path / "pytorch_model.bin"
@@ -72,10 +75,13 @@ class CognitiveTranslator(CognitiveModel):
     Modelo optimizado para tareas Text-to-Text (e.g. Traducción).
     Usa el Stable Core para generar texto a partir del contexto recuperado en memoria.
     """
-    def __init__(self, engine=None, source_lang="en", target_lang="es"):
+    def __init__(self, engine=None, source_lang="en", target_lang="es", device=None):
+        if device is None:
+            device = "cuda" if torch.cuda.is_available() else "cpu"
         if engine is None:
-            engine = EngineBuilder().build_v2()
-        config_dict = {"source_lang": source_lang, "target_lang": target_lang, "task": "translation"}
+            config = EngineConfig(device=device)
+            engine = EngineBuilder(config=config).build_v2()
+        config_dict = {"source_lang": source_lang, "target_lang": target_lang, "task": "translation", "device": device}
         super().__init__(engine, config_dict)
         self.source_lang = source_lang
         self.target_lang = target_lang
@@ -97,10 +103,13 @@ class CognitiveEncoder(CognitiveModel):
     """
     Modelo optimizado para extraer representaciones densas (embeddings) tipo BERT.
     """
-    def __init__(self, engine=None):
+    def __init__(self, engine=None, device=None):
+        if device is None:
+            device = "cuda" if torch.cuda.is_available() else "cpu"
         if engine is None:
-            engine = EngineBuilder().build_v2()
-        config_dict = {"task": "encoding"}
+            config = EngineConfig(device=device)
+            engine = EngineBuilder(config=config).build_v2()
+        config_dict = {"task": "encoding", "device": device}
         super().__init__(engine, config_dict)
 
     def encode(self, text: str):
