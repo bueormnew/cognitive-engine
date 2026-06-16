@@ -1,0 +1,817 @@
+{
+  "stream_steps": [
+    {
+      "input": "Aprendi que Area2D detecta cuerpos dinamicos en Godot",
+      "response": "Información analizada y comprimida como: knowledge_share: aprendi, area2d, detecta, cuerpos",
+      "importance_action": "reinforce",
+      "importance_score": 0.781,
+      "confidence_score": 0.8787500000000001,
+      "learning_applied": true,
+      "memory_snapshot": {
+        "steps": 1,
+        "memory": {
+          "short_term_size": 1,
+          "episodic_size": 1,
+          "semantic_size": 1,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "knowledge_share",
+            "active_concepts": [
+              "aprendi",
+              "area2d",
+              "detecta",
+              "cuerpos",
+              "dinamicos",
+              "godot"
+            ],
+            "recent_entities": [
+              "Aprendi",
+              "Area2D",
+              "Godot",
+              "area2d"
+            ],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    },
+    {
+      "input": "Prefiero respuestas tecnicas y directas",
+      "response": "Información analizada y comprimida como: preference: prefiero, respuestas, tecnicas, directas",
+      "importance_action": "learn",
+      "importance_score": 0.6941864557266235,
+      "confidence_score": 0.6937500000000001,
+      "learning_applied": true,
+      "memory_snapshot": {
+        "steps": 2,
+        "memory": {
+          "short_term_size": 2,
+          "episodic_size": 2,
+          "semantic_size": 2,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ],
+            [
+              "prefiero",
+              1
+            ],
+            [
+              "respuestas",
+              1
+            ],
+            [
+              "tecnicas",
+              1
+            ],
+            [
+              "directas",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "preference",
+            "active_concepts": [
+              "prefiero",
+              "respuestas",
+              "tecnicas",
+              "directas"
+            ],
+            "recent_entities": [
+              "Prefiero"
+            ],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    },
+    {
+      "input": "Mi proyecto usa PyTorch para prototipos modulares",
+      "response": "Información analizada y comprimida como: statement: proyecto, usa, pytorch, prototipos",
+      "importance_action": "learn",
+      "importance_score": 0.6328876352310181,
+      "confidence_score": 0.8787500000000001,
+      "learning_applied": true,
+      "memory_snapshot": {
+        "steps": 3,
+        "memory": {
+          "short_term_size": 3,
+          "episodic_size": 3,
+          "semantic_size": 3,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ],
+            [
+              "prefiero",
+              1
+            ],
+            [
+              "respuestas",
+              1
+            ],
+            [
+              "tecnicas",
+              1
+            ],
+            [
+              "directas",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "statement",
+            "active_concepts": [
+              "proyecto",
+              "usa",
+              "pytorch",
+              "prototipos",
+              "modulares",
+              "Mi"
+            ],
+            "recent_entities": [
+              "Mi",
+              "PyTorch"
+            ],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    },
+    {
+      "input": "hola",
+      "response": "Información observada sin actualización fuerte de memoria: small_talk: hola",
+      "importance_action": "ignore",
+      "importance_score": 0.343470168876648,
+      "confidence_score": 0.41624999999999995,
+      "learning_applied": false,
+      "memory_snapshot": {
+        "steps": 4,
+        "memory": {
+          "short_term_size": 3,
+          "episodic_size": 3,
+          "semantic_size": 3,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ],
+            [
+              "prefiero",
+              1
+            ],
+            [
+              "respuestas",
+              1
+            ],
+            [
+              "tecnicas",
+              1
+            ],
+            [
+              "directas",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "small_talk",
+            "active_concepts": [
+              "hola"
+            ],
+            "recent_entities": [],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    },
+    {
+      "input": "En realidad la correccion importante es que el nodo correcto era RigidBody2D, no Area2D",
+      "response": "Información analizada y comprimida como: correction: realidad, correccion, importante, nodo",
+      "importance_action": "reinforce",
+      "importance_score": 0.779455198486646,
+      "confidence_score": 0.8787500000000001,
+      "learning_applied": true,
+      "memory_snapshot": {
+        "steps": 5,
+        "memory": {
+          "short_term_size": 4,
+          "episodic_size": 4,
+          "semantic_size": 4,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ],
+            [
+              "prefiero",
+              1
+            ],
+            [
+              "respuestas",
+              1
+            ],
+            [
+              "tecnicas",
+              1
+            ],
+            [
+              "directas",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "correction",
+            "active_concepts": [
+              "realidad",
+              "correccion",
+              "importante",
+              "nodo",
+              "correcto",
+              "era"
+            ],
+            "recent_entities": [
+              "En",
+              "RigidBody2D",
+              "Area2D",
+              "rigidbody2d",
+              "area2d"
+            ],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    },
+    {
+      "input": "Qdrant sirve para memoria vectorial con busqueda semantica",
+      "response": "Información analizada y comprimida como: statement: qdrant, sirve, memoria, vectorial",
+      "importance_action": "learn",
+      "importance_score": 0.6530804260671139,
+      "confidence_score": 0.8787500000000001,
+      "learning_applied": true,
+      "memory_snapshot": {
+        "steps": 6,
+        "memory": {
+          "short_term_size": 5,
+          "episodic_size": 5,
+          "semantic_size": 5,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ],
+            [
+              "prefiero",
+              1
+            ],
+            [
+              "respuestas",
+              1
+            ],
+            [
+              "tecnicas",
+              1
+            ],
+            [
+              "directas",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "statement",
+            "active_concepts": [
+              "qdrant",
+              "sirve",
+              "memoria",
+              "vectorial",
+              "busqueda",
+              "semantica"
+            ],
+            "recent_entities": [
+              "Qdrant"
+            ],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    },
+    {
+      "input": "Esto es ruido ruido ruido ruido",
+      "response": "Información observada sin actualización fuerte de memoria: statement: ruido, Esto",
+      "importance_action": "ignore",
+      "importance_score": 0.5546027801334859,
+      "confidence_score": 0.50875,
+      "learning_applied": false,
+      "memory_snapshot": {
+        "steps": 7,
+        "memory": {
+          "short_term_size": 5,
+          "episodic_size": 5,
+          "semantic_size": 5,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ],
+            [
+              "prefiero",
+              1
+            ],
+            [
+              "respuestas",
+              1
+            ],
+            [
+              "tecnicas",
+              1
+            ],
+            [
+              "directas",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "statement",
+            "active_concepts": [
+              "ruido",
+              "Esto"
+            ],
+            "recent_entities": [
+              "Esto"
+            ],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    },
+    {
+      "input": "Me gusta conservar patrones utiles y descartar conversaciones vacias",
+      "response": "Información analizada y comprimida como: statement: gusta, conservar, patrones, utiles",
+      "importance_action": "learn",
+      "importance_score": 0.600351768374443,
+      "confidence_score": 0.8787500000000001,
+      "learning_applied": true,
+      "memory_snapshot": {
+        "steps": 8,
+        "memory": {
+          "short_term_size": 6,
+          "episodic_size": 6,
+          "semantic_size": 6,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ],
+            [
+              "prefiero",
+              1
+            ],
+            [
+              "respuestas",
+              1
+            ],
+            [
+              "tecnicas",
+              1
+            ],
+            [
+              "directas",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "statement",
+            "active_concepts": [
+              "gusta",
+              "conservar",
+              "patrones",
+              "utiles",
+              "descartar",
+              "conversaciones"
+            ],
+            "recent_entities": [
+              "Me"
+            ],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    },
+    {
+      "input": "LoRA ayuda a adaptar submodulos sin reentrenar todo el sistema",
+      "response": "Información analizada y comprimida como: statement: lora, ayuda, adaptar, submodulos",
+      "importance_action": "learn",
+      "importance_score": 0.6011686633825303,
+      "confidence_score": 0.8787500000000001,
+      "learning_applied": true,
+      "memory_snapshot": {
+        "steps": 9,
+        "memory": {
+          "short_term_size": 7,
+          "episodic_size": 7,
+          "semantic_size": 7,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ],
+            [
+              "prefiero",
+              1
+            ],
+            [
+              "respuestas",
+              1
+            ],
+            [
+              "tecnicas",
+              1
+            ],
+            [
+              "directas",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "statement",
+            "active_concepts": [
+              "lora",
+              "ayuda",
+              "adaptar",
+              "submodulos",
+              "sin",
+              "reentrenar"
+            ],
+            "recent_entities": [
+              "LoRA"
+            ],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    },
+    {
+      "input": "Las correcciones del usuario deben reforzarse mas que el small talk",
+      "response": "Información analizada y comprimida como: correction: correcciones, usuario, deben, reforzarse",
+      "importance_action": "reinforce",
+      "importance_score": 0.7920588910818099,
+      "confidence_score": 0.8787500000000001,
+      "learning_applied": true,
+      "memory_snapshot": {
+        "steps": 10,
+        "memory": {
+          "short_term_size": 8,
+          "episodic_size": 8,
+          "semantic_size": 8,
+          "top_concepts": [
+            [
+              "aprendi",
+              1
+            ],
+            [
+              "area2d",
+              1
+            ],
+            [
+              "detecta",
+              1
+            ],
+            [
+              "cuerpos",
+              1
+            ],
+            [
+              "dinamicos",
+              1
+            ],
+            [
+              "godot",
+              1
+            ],
+            [
+              "prefiero",
+              1
+            ],
+            [
+              "respuestas",
+              1
+            ],
+            [
+              "tecnicas",
+              1
+            ],
+            [
+              "directas",
+              1
+            ]
+          ],
+          "working_state": {
+            "active_intent": "correction",
+            "active_concepts": [
+              "correcciones",
+              "usuario",
+              "deben",
+              "reforzarse",
+              "mas",
+              "small"
+            ],
+            "recent_entities": [
+              "Las"
+            ],
+            "session_goals": []
+          }
+        },
+        "replay_size": 0,
+        "plastic_drift": 0.0
+      }
+    }
+  ],
+  "query_outputs": [
+    {
+      "query": "¿Que recuerdas sobre mis preferencias?",
+      "response": "User preference extracted: prefiero, respuestas, tecnicas, directas | Correction compressed: realidad, correccion, importante, nodo | Knowledge compressed: aprendi, area2d, detecta, cuerpos"
+    },
+    {
+      "query": "¿Que recuerdas sobre el proyecto?",
+      "response": "Contextual memory: statement: proyecto, usa, pytorch, prototipos | Correction compressed: correcciones, usuario, deben, reforzarse | Knowledge compressed: aprendi, area2d, detecta, cuerpos"
+    }
+  ],
+  "action_histogram": {
+    "reinforce": 3,
+    "learn": 5,
+    "ignore": 2
+  },
+  "final_snapshot": {
+    "steps": 12,
+    "memory": {
+      "short_term_size": 8,
+      "episodic_size": 8,
+      "semantic_size": 8,
+      "top_concepts": [
+        [
+          "aprendi",
+          1
+        ],
+        [
+          "area2d",
+          1
+        ],
+        [
+          "detecta",
+          1
+        ],
+        [
+          "cuerpos",
+          1
+        ],
+        [
+          "dinamicos",
+          1
+        ],
+        [
+          "godot",
+          1
+        ],
+        [
+          "prefiero",
+          1
+        ],
+        [
+          "respuestas",
+          1
+        ],
+        [
+          "tecnicas",
+          1
+        ],
+        [
+          "directas",
+          1
+        ]
+      ],
+      "working_state": {
+        "active_intent": "question",
+        "active_concepts": [
+          "recuerdas",
+          "sobre",
+          "proyecto",
+          "Que"
+        ],
+        "recent_entities": [
+          "Que"
+        ],
+        "session_goals": []
+      }
+    },
+    "replay_size": 0,
+    "plastic_drift": 0.0
+  },
+  "plots": [
+    "artifacts\\plots\\importance_confidence_stream.png",
+    "artifacts\\plots\\memory_growth_stream.png"
+  ]
+}

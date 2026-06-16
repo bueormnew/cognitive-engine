@@ -1,0 +1,351 @@
+{
+  "epoch_metrics": [
+    {
+      "epoch": 1,
+      "loss": 0.005294374643859488,
+      "mae": 2.1875159740448,
+      "accuracy": 0.18627451360225677,
+      "replay_ratio": 30.775308641975307,
+      "plastic_norm": 4.587804998132044,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 2,
+      "loss": 0.003101359251426694,
+      "mae": 1.7808449268341064,
+      "accuracy": 0.1666666716337204,
+      "replay_ratio": 32.0,
+      "plastic_norm": 6.035278611455435,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 3,
+      "loss": 0.0032762702634949008,
+      "mae": 0.6155008673667908,
+      "accuracy": 0.6078431606292725,
+      "replay_ratio": 32.0,
+      "plastic_norm": 6.48317632590547,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 4,
+      "loss": 0.0034138611351128344,
+      "mae": 0.3650471270084381,
+      "accuracy": 0.6764705777168274,
+      "replay_ratio": 32.0,
+      "plastic_norm": 6.800845684800987,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 5,
+      "loss": 0.0035196752413923357,
+      "mae": 0.6763956546783447,
+      "accuracy": 0.4313725531101227,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.026276480204161,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 6,
+      "loss": 0.0035843636300184846,
+      "mae": 0.6029879450798035,
+      "accuracy": 0.529411792755127,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.1595112019666916,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 7,
+      "loss": 0.0036169424779529187,
+      "mae": 0.2663375735282898,
+      "accuracy": 0.9019607901573181,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.220547828115063,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 8,
+      "loss": 0.003654507421715944,
+      "mae": 0.32829368114471436,
+      "accuracy": 0.7549019455909729,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.30185961164994,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 9,
+      "loss": 0.0036747962604334323,
+      "mae": 0.6362103223800659,
+      "accuracy": 0.45098039507865906,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.329435285153212,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 10,
+      "loss": 0.0036720725006343406,
+      "mae": 0.2751097083091736,
+      "accuracy": 0.8529411554336548,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.331921059481892,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 11,
+      "loss": 0.003683690840585364,
+      "mae": 0.3180345892906189,
+      "accuracy": 0.7647058963775635,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.352069040010741,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 12,
+      "loss": 0.0036983059339777188,
+      "mae": 0.29142898321151733,
+      "accuracy": 0.813725471496582,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.375824559351177,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 13,
+      "loss": 0.003713479029290654,
+      "mae": 0.2192162126302719,
+      "accuracy": 0.9803921580314636,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.410115318460229,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 14,
+      "loss": 0.0037605047363925862,
+      "mae": 0.3418901860713959,
+      "accuracy": 0.7549019455909729,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.50712168286612,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 15,
+      "loss": 0.0037718844462048123,
+      "mae": 0.1956658959388733,
+      "accuracy": 0.970588207244873,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.471249371408312,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 16,
+      "loss": 0.003865343202365401,
+      "mae": 0.19976943731307983,
+      "accuracy": 0.9901960492134094,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.728163401258213,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 17,
+      "loss": 0.003909008469961492,
+      "mae": 0.1314445585012436,
+      "accuracy": 0.9901960492134094,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.8024874755537805,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 18,
+      "loss": 0.003935023246585955,
+      "mae": 0.1300186961889267,
+      "accuracy": 1.0,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.867211818787051,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 19,
+      "loss": 0.003962017718794537,
+      "mae": 0.1946200728416443,
+      "accuracy": 0.9313725233078003,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.91145283760112,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 20,
+      "loss": 0.003936978391038231,
+      "mae": 0.14876335859298706,
+      "accuracy": 0.970588207244873,
+      "replay_ratio": 32.0,
+      "plastic_norm": 7.858321590684814,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 21,
+      "loss": 0.0040201053736202514,
+      "mae": 0.7234511375427246,
+      "accuracy": 0.6176470518112183,
+      "replay_ratio": 32.0,
+      "plastic_norm": 8.026991849006325,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 22,
+      "loss": 0.004010534492309815,
+      "mae": 0.12103931605815887,
+      "accuracy": 1.0,
+      "replay_ratio": 32.0,
+      "plastic_norm": 8.01316666096265,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 23,
+      "loss": 0.004088941763764546,
+      "mae": 0.5156590342521667,
+      "accuracy": 0.5588235259056091,
+      "replay_ratio": 32.0,
+      "plastic_norm": 8.168740817573335,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 24,
+      "loss": 0.004110109136888275,
+      "mae": 0.14136594533920288,
+      "accuracy": 1.0,
+      "replay_ratio": 32.0,
+      "plastic_norm": 8.174958857737574,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    },
+    {
+      "epoch": 25,
+      "loss": 0.0042357038856012585,
+      "mae": 0.28860586881637573,
+      "accuracy": 0.7352941036224365,
+      "replay_ratio": 32.0,
+      "plastic_norm": 8.467253556727995,
+      "stable_drift": 0.0,
+      "semantic_memory_size": 2
+    }
+  ],
+  "validation_final": {
+    "mae": 0.1300186961889267,
+    "accuracy": 1.0
+  },
+  "best_epoch": 18,
+  "best_validation_accuracy": 1.0,
+  "checkpoint_path": "artifacts\\checkpoints\\best_numeric_plastic_module.pt",
+  "prediction_cases": [
+    {
+      "a": 2,
+      "b": 3,
+      "operation": "add",
+      "target": 5,
+      "prediction": 4.872500896453857,
+      "confidence": 0.999,
+      "response": "Resultado estimado: 4.873. Confianza=0.999. Memoria relevante: Arithmetic pattern observed: 1 sub 3 with action=learn | Arithmetic pattern observed: 4 mul 10 with action=learn"
+    },
+    {
+      "a": 9,
+      "b": 4,
+      "operation": "sub",
+      "target": 5,
+      "prediction": 4.84083366394043,
+      "confidence": 0.9989013671875,
+      "response": "Resultado estimado: 4.841. Confianza=0.999. Memoria relevante: Arithmetic pattern observed: 1 sub 3 with action=learn | Arithmetic pattern observed: 4 mul 10 with action=learn"
+    },
+    {
+      "a": 6,
+      "b": 7,
+      "operation": "mul",
+      "target": 42,
+      "prediction": 41.98168182373047,
+      "confidence": 0.9985981583595276,
+      "response": "Resultado estimado: 41.982. Confianza=0.999. Memoria relevante: Arithmetic pattern observed: 4 mul 10 with action=learn | Arithmetic pattern observed: 1 sub 3 with action=learn"
+    },
+    {
+      "a": 12,
+      "b": 12,
+      "operation": "add",
+      "target": 24,
+      "prediction": 23.457509994506836,
+      "confidence": 0.9980288147926331,
+      "response": "Resultado estimado: 23.458. Confianza=0.998. Memoria relevante: Arithmetic pattern observed: 1 sub 3 with action=learn | Arithmetic pattern observed: 4 mul 10 with action=learn"
+    }
+  ],
+  "final_snapshot": {
+    "steps": 10129,
+    "memory": {
+      "short_term_size": 2,
+      "episodic_size": 2,
+      "semantic_size": 2,
+      "top_concepts": [
+        [
+          "sub",
+          1
+        ],
+        [
+          "lhs:1",
+          1
+        ],
+        [
+          "rhs:3",
+          1
+        ],
+        [
+          "mul",
+          1
+        ],
+        [
+          "lhs:4",
+          1
+        ],
+        [
+          "rhs:10",
+          1
+        ]
+      ],
+      "working_state": {
+        "active_intent": "arithmetic_add",
+        "active_concepts": [
+          "add",
+          "lhs:12",
+          "rhs:12"
+        ],
+        "recent_entities": [],
+        "session_goals": []
+      }
+    },
+    "replay_size": 512,
+    "plastic_drift": 7.916268527507782
+  },
+  "plots": [
+    "artifacts\\plots\\training_loss_mae.png",
+    "artifacts\\plots\\accuracy_drift.png"
+  ],
+  "train_size": 405,
+  "val_size": 102
+}

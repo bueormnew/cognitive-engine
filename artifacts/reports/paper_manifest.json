@@ -1,0 +1,10 @@
+{
+  "markdown": "docs\\hybrid_cognitive_architecture_paper.md",
+  "docx": "artifacts\\reports\\hybrid_cognitive_architecture_paper.docx",
+  "word_count": 9011,
+  "figures": {
+    "architecture": "artifacts\\plots\\architecture_topology.png",
+    "action_histogram": "artifacts\\plots\\action_histogram.png",
+    "prediction_cases": "artifacts\\plots\\prediction_case_comparison.png"
+  }
+}

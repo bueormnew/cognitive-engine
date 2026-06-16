@@ -1,0 +1,9 @@
+{
+  "markdown": "docs\\cognitive_engine_v2_implementation_paper.md",
+  "docx": "artifacts\\reports\\cognitive_engine_v2_implementation_paper.docx",
+  "figures": [
+    "artifacts\\plots\\v2_router_gates.png",
+    "artifacts\\plots\\v2_memory_snapshot.png"
+  ],
+  "words": 2065
+}

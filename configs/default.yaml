@@ -1,0 +1,26 @@
+seed: 13
+device: cpu
+thresholds:
+  learn: 0.62
+  reinforce: 0.75
+  consolidate: 0.82
+  uncertainty: 0.45
+  contradiction: 0.55
+memory:
+  short_term_capacity: 24
+  episodic_capacity: 128
+  semantic_capacity: 512
+  replay_capacity: 512
+  retrieval_top_k: 5
+  consolidation_interval: 10
+numeric_demo:
+  operations:
+    - add
+    - sub
+    - mul
+  max_operand: 12
+  train_size: 2048
+  val_size: 512
+  batch_size: 64
+  epochs: 25
+  replay_batch_size: 32

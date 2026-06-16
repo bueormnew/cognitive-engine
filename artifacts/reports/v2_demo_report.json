@@ -1,0 +1,706 @@
+{
+  "outputs": [
+    {
+      "input": "Prefiero codigo modular con interfaces claras y pruebas enfocadas",
+      "text": "Información analizada y comprimida como: preference: prefiero, codigo, modular, interfaces\n\nSpecialist context: {'specialist': 'general_coding', 'tools': ['git', 'pytest'], 'procedures': ['reproduce', 'patch', 'validate'], 'domains': ['code', 'bug', 'test']}",
+      "learning_applied": true,
+      "routing": {
+        "semantic_memory": 0.6,
+        "episodic_memory": 0.4974995255470276,
+        "graph_memory": 0.65,
+        "project_memory": 0.7,
+        "procedural_memory": 0.5403658151626587,
+        "specialists": 0.5903829336166382,
+        "tools": 0.6025298237800598,
+        "learn": 0.72
+      },
+      "selected_specialists": [
+        "general_coding"
+      ],
+      "context_tokens": 322,
+      "stability": {
+        "approved": true,
+        "confidence": 0.8787500000000001,
+        "risk_score": 0.0,
+        "reasons": [
+          "update within stability limits"
+        ]
+      },
+      "traces": [
+        "project_index",
+        "input_v2",
+        "semantic_v2",
+        "routing_v2",
+        "memory_v2",
+        "context_v2",
+        "stability_v2",
+        "stable_core_v2",
+        "memory_write_v2"
+      ]
+    },
+    {
+      "input": "En Python este bug de pytest falla por import circular en cognitive_engine/core/engine.py",
+      "text": "Información analizada y comprimida como: statement: python, este, bug, pytest\n\nSpecialist context: {'specialist': 'python', 'tools': ['pytest', 'ruff', 'mypy'], 'procedures': ['run focused pytest', 'inspect imports'], 'domains': ['python', 'pytest', 'pip', 'torch']}",
+      "learning_applied": true,
+      "routing": {
+        "semantic_memory": 0.4998083710670471,
+        "episodic_memory": 0.5726660490036011,
+        "graph_memory": 0.68,
+        "project_memory": 0.7,
+        "procedural_memory": 0.58,
+        "specialists": 0.76,
+        "tools": 0.58,
+        "learn": 0.5409252643585205
+      },
+      "selected_specialists": [
+        "python"
+      ],
+      "context_tokens": 338,
+      "stability": {
+        "approved": true,
+        "confidence": 0.8787500000000001,
+        "risk_score": 0.0,
+        "reasons": [
+          "update within stability limits"
+        ]
+      },
+      "traces": [
+        "input_v2",
+        "semantic_v2",
+        "routing_v2",
+        "memory_v2",
+        "context_v2",
+        "stability_v2",
+        "stable_core_v2",
+        "memory_write_v2"
+      ]
+    },
+    {
+      "input": "Godot Area2D detecta cuerpos, pero para fisica dinamica debo revisar RigidBody2D",
+      "text": "Información analizada y comprimida como: knowledge_share: godot, area2d, detecta, cuerpos\n\nSpecialist context: {'specialist': 'godot', 'tools': ['godot'], 'procedures': ['inspect nodes', 'validate signals'], 'domains': ['godot', 'gdscript', 'area2d', 'rigidbody2d']}",
+      "learning_applied": true,
+      "routing": {
+        "semantic_memory": 0.6,
+        "episodic_memory": 0.5651243925094604,
+        "graph_memory": 0.68,
+        "project_memory": 0.7,
+        "procedural_memory": 0.58,
+        "specialists": 0.76,
+        "tools": 0.58,
+        "learn": 0.72
+      },
+      "selected_specialists": [
+        "godot"
+      ],
+      "context_tokens": 373,
+      "stability": {
+        "approved": true,
+        "confidence": 0.8787500000000001,
+        "risk_score": 0.0,
+        "reasons": [
+          "update within stability limits"
+        ]
+      },
+      "traces": [
+        "input_v2",
+        "semantic_v2",
+        "routing_v2",
+        "memory_v2",
+        "context_v2",
+        "stability_v2",
+        "stable_core_v2",
+        "memory_write_v2"
+      ]
+    },
+    {
+      "input": "Necesito recordar que este proyecto usa registry y dependency injection",
+      "text": "Información analizada y comprimida como: statement: necesito, recordar, este, proyecto\n\nSpecialist context: {'specialist': 'general_coding', 'tools': ['git', 'pytest'], 'procedures': ['Procedure from statement: python, este, bug'], 'domains': ['code', 'bug', 'test']}",
+      "learning_applied": true,
+      "routing": {
+        "semantic_memory": 0.5125252604484558,
+        "episodic_memory": 0.554715633392334,
+        "graph_memory": 0.65,
+        "project_memory": 0.7,
+        "procedural_memory": 0.5287919044494629,
+        "specialists": 0.5084863901138306,
+        "tools": 0.4872020483016968,
+        "learn": 0.5220710039138794
+      },
+      "selected_specialists": [
+        "general_coding"
+      ],
+      "context_tokens": 514,
+      "stability": {
+        "approved": true,
+        "confidence": 0.8787500000000001,
+        "risk_score": 0.0,
+        "reasons": [
+          "update within stability limits"
+        ]
+      },
+      "traces": [
+        "input_v2",
+        "semantic_v2",
+        "routing_v2",
+        "memory_v2",
+        "context_v2",
+        "stability_v2",
+        "stable_core_v2",
+        "memory_write_v2"
+      ]
+    },
+    {
+      "input": "hola hola ruido sin valor",
+      "text": "Información analizada y comprimida como: statement: hola, ruido, sin, valor",
+      "learning_applied": false,
+      "routing": {
+        "semantic_memory": 0.5166933536529541,
+        "episodic_memory": 0.5571832656860352,
+        "graph_memory": 0.65,
+        "project_memory": 0.7,
+        "procedural_memory": 0.2,
+        "specialists": 0.12,
+        "tools": 0.12,
+        "learn": 0.12
+      },
+      "selected_specialists": [],
+      "context_tokens": 379,
+      "stability": {
+        "approved": true,
+        "confidence": 0.6937500000000001,
+        "risk_score": 0.0,
+        "reasons": [
+          "update within stability limits"
+        ]
+      },
+      "traces": [
+        "input_v2",
+        "semantic_v2",
+        "routing_v2",
+        "memory_v2",
+        "context_v2",
+        "stability_v2",
+        "stable_core_v2"
+      ]
+    },
+    {
+      "input": "Cuando un test falla, primero reproducirlo y luego aplicar el cambio minimo",
+      "text": "Información analizada y comprimida como: statement: cuando, test, falla, primero\n\nSpecialist context: {'specialist': 'general_coding', 'tools': ['git', 'pytest'], 'procedures': ['Procedure from statement: python, este, bug'], 'domains': ['code', 'bug', 'test']}",
+      "learning_applied": true,
+      "routing": {
+        "semantic_memory": 0.5124690532684326,
+        "episodic_memory": 0.5543370842933655,
+        "graph_memory": 0.65,
+        "project_memory": 0.7,
+        "procedural_memory": 0.5290901064872742,
+        "specialists": 0.5088710784912109,
+        "tools": 0.48723578453063965,
+        "learn": 0.5220102667808533
+      },
+      "selected_specialists": [
+        "general_coding"
+      ],
+      "context_tokens": 530,
+      "stability": {
+        "approved": true,
+        "confidence": 0.8787500000000001,
+        "risk_score": 0.0,
+        "reasons": [
+          "update within stability limits"
+        ]
+      },
+      "traces": [
+        "input_v2",
+        "semantic_v2",
+        "routing_v2",
+        "memory_v2",
+        "context_v2",
+        "stability_v2",
+        "stable_core_v2",
+        "memory_write_v2"
+      ]
+    }
+  ],
+  "query": {
+    "text": "Contextual memory: statement: necesito, recordar, este, proyecto | Knowledge compressed: godot, area2d, detecta, cuerpos | Contextual memory: statement: python, este, bug, pytest\n\nSpecialist context: {'specialist': 'python', 'tools': ['pytest', 'ruff', 'mypy'], 'procedures': ['Procedure from statement: python, este, bug'], 'domains': ['python', 'pytest', 'pip', 'torch']}",
+    "routing": {
+      "semantic_memory": 0.72,
+      "episodic_memory": 0.5805224776268005,
+      "graph_memory": 0.68,
+      "project_memory": 0.7,
+      "procedural_memory": 0.58,
+      "specialists": 0.76,
+      "tools": 0.58,
+      "learn": 0.18
+    },
+    "graph_nodes_returned": 16
+  },
+  "snapshot": {
+    "version": "v2",
+    "steps": 7,
+    "memory": {
+      "short_term_size": 5,
+      "episodic_size": 5,
+      "semantic_size": 5,
+      "top_concepts": [
+        [
+          "este",
+          2
+        ],
+        [
+          "falla",
+          2
+        ],
+        [
+          "prefiero",
+          1
+        ],
+        [
+          "codigo",
+          1
+        ],
+        [
+          "modular",
+          1
+        ],
+        [
+          "interfaces",
+          1
+        ],
+        [
+          "claras",
+          1
+        ],
+        [
+          "pruebas",
+          1
+        ],
+        [
+          "python",
+          1
+        ],
+        [
+          "bug",
+          1
+        ]
+      ],
+      "working_state": {
+        "active_intent": "question",
+        "active_concepts": [
+          "recuerdas",
+          "sobre",
+          "bugs",
+          "python",
+          "decisiones",
+          "proyecto"
+        ],
+        "recent_entities": [
+          "Que",
+          "Python"
+        ],
+        "session_goals": []
+      },
+      "graph": {
+        "nodes": 493,
+        "edges": 966,
+        "node_types": {
+          "Project": 1,
+          "File": 63,
+          "Module": 63,
+          "Dependency": 23,
+          "Function": 222,
+          "Class": 88,
+          "Concept": 33
+        },
+        "relations": {
+          "owns": 63,
+          "defines": 683,
+          "imports": 171,
+          "mentions": 28,
+          "preference": 4,
+          "prefers": 1,
+          "statement": 12,
+          "knowledge_share": 4
+        }
+      },
+      "procedural_size": 2,
+      "project_size": 1,
+      "preference_size": 1
+    },
+    "router": {
+      "name": "learned_cognitive_router",
+      "trained_steps": 0,
+      "fallback": "adaptive_dynamic_router"
+    },
+    "specialists": {
+      "name": "specialist_runtime",
+      "specialists": {
+        "python": {
+          "name": "python",
+          "version": "2.0.0",
+          "domains": [
+            "python",
+            "pytest",
+            "pip",
+            "torch"
+          ],
+          "tools": [
+            "pytest",
+            "ruff",
+            "mypy"
+          ],
+          "procedures": [
+            "run focused pytest",
+            "inspect imports"
+          ]
+        },
+        "godot": {
+          "name": "godot",
+          "version": "2.0.0",
+          "domains": [
+            "godot",
+            "gdscript",
+            "area2d",
+            "rigidbody2d"
+          ],
+          "tools": [
+            "godot"
+          ],
+          "procedures": [
+            "inspect nodes",
+            "validate signals"
+          ]
+        },
+        "rust": {
+          "name": "rust",
+          "version": "2.0.0",
+          "domains": [
+            "rust",
+            "cargo",
+            "borrow"
+          ],
+          "tools": [
+            "cargo test",
+            "clippy"
+          ],
+          "procedures": [
+            "check ownership",
+            "run cargo test"
+          ]
+        },
+        "cpp": {
+          "name": "cpp",
+          "version": "2.0.0",
+          "domains": [
+            "c++",
+            "cpp",
+            "cmake"
+          ],
+          "tools": [
+            "cmake",
+            "ctest"
+          ],
+          "procedures": [
+            "check headers",
+            "run targeted build"
+          ]
+        },
+        "cuda": {
+          "name": "cuda",
+          "version": "2.0.0",
+          "domains": [
+            "cuda",
+            "kernel",
+            "gpu"
+          ],
+          "tools": [
+            "nvcc"
+          ],
+          "procedures": [
+            "check shapes",
+            "check device capability"
+          ]
+        },
+        "kubernetes": {
+          "name": "kubernetes",
+          "version": "2.0.0",
+          "domains": [
+            "kubernetes",
+            "k8s",
+            "helm"
+          ],
+          "tools": [
+            "kubectl",
+            "helm"
+          ],
+          "procedures": [
+            "validate manifests",
+            "inspect rollout"
+          ]
+        },
+        "unreal": {
+          "name": "unreal",
+          "version": "2.0.0",
+          "domains": [
+            "unreal",
+            "blueprint",
+            "ue"
+          ],
+          "tools": [
+            "unrealbuildtool"
+          ],
+          "procedures": [
+            "inspect modules",
+            "validate blueprint boundary"
+          ]
+        },
+        "general_coding": {
+          "name": "general_coding",
+          "version": "2.0.0",
+          "domains": [
+            "code",
+            "bug",
+            "test"
+          ],
+          "tools": [
+            "git",
+            "pytest"
+          ],
+          "procedures": [
+            "reproduce",
+            "patch",
+            "validate"
+          ]
+        }
+      }
+    },
+    "context_manager": {
+      "name": "long_context_manager",
+      "default_budget": 32768
+    },
+    "stability": {
+      "name": "stability_governor_v2",
+      "max_drift": 25.0,
+      "min_confidence": 0.35
+    },
+    "replay_size": 0,
+    "plastic_drift": 0.0
+  },
+  "architecture": {
+    "version": "v2",
+    "processors": [
+      {
+        "name": "numeric_input_processor",
+        "scale": 12.0,
+        "operations": {
+          "add": 0,
+          "sub": 1,
+          "mul": 2
+        }
+      },
+      {
+        "name": "text_input_processor",
+        "vocab_size": 4096,
+        "max_length": 96
+      }
+    ],
+    "semantic_encoder": {
+      "name": "hybrid_semantic_dispatcher",
+      "encoders": [
+        "text_semantic_encoder",
+        "numeric_semantic_encoder"
+      ]
+    },
+    "router": {
+      "name": "learned_cognitive_router",
+      "trained_steps": 0,
+      "fallback": "adaptive_dynamic_router"
+    },
+    "memory_system": {
+      "name": "hybrid_cognitive_memory",
+      "base": {
+        "name": "hierarchical_memory_system",
+        "short_term_capacity": 24,
+        "episodic_capacity": 128,
+        "semantic_capacity": 512
+      },
+      "graph": {
+        "name": "cognitive_graph_memory",
+        "nodes": 493,
+        "edges": 966
+      },
+      "procedures": 2,
+      "projects": 1,
+      "preferences": 1
+    },
+    "compressor": {
+      "name": "semantic_compressor_v2",
+      "base": "semantic_knowledge_compressor"
+    },
+    "specialists": {
+      "name": "specialist_runtime",
+      "specialists": {
+        "python": {
+          "name": "python",
+          "version": "2.0.0",
+          "domains": [
+            "python",
+            "pytest",
+            "pip",
+            "torch"
+          ],
+          "tools": [
+            "pytest",
+            "ruff",
+            "mypy"
+          ],
+          "procedures": [
+            "run focused pytest",
+            "inspect imports"
+          ]
+        },
+        "godot": {
+          "name": "godot",
+          "version": "2.0.0",
+          "domains": [
+            "godot",
+            "gdscript",
+            "area2d",
+            "rigidbody2d"
+          ],
+          "tools": [
+            "godot"
+          ],
+          "procedures": [
+            "inspect nodes",
+            "validate signals"
+          ]
+        },
+        "rust": {
+          "name": "rust",
+          "version": "2.0.0",
+          "domains": [
+            "rust",
+            "cargo",
+            "borrow"
+          ],
+          "tools": [
+            "cargo test",
+            "clippy"
+          ],
+          "procedures": [
+            "check ownership",
+            "run cargo test"
+          ]
+        },
+        "cpp": {
+          "name": "cpp",
+          "version": "2.0.0",
+          "domains": [
+            "c++",
+            "cpp",
+            "cmake"
+          ],
+          "tools": [
+            "cmake",
+            "ctest"
+          ],
+          "procedures": [
+            "check headers",
+            "run targeted build"
+          ]
+        },
+        "cuda": {
+          "name": "cuda",
+          "version": "2.0.0",
+          "domains": [
+            "cuda",
+            "kernel",
+            "gpu"
+          ],
+          "tools": [
+            "nvcc"
+          ],
+          "procedures": [
+            "check shapes",
+            "check device capability"
+          ]
+        },
+        "kubernetes": {
+          "name": "kubernetes",
+          "version": "2.0.0",
+          "domains": [
+            "kubernetes",
+            "k8s",
+            "helm"
+          ],
+          "tools": [
+            "kubectl",
+            "helm"
+          ],
+          "procedures": [
+            "validate manifests",
+            "inspect rollout"
+          ]
+        },
+        "unreal": {
+          "name": "unreal",
+          "version": "2.0.0",
+          "domains": [
+            "unreal",
+            "blueprint",
+            "ue"
+          ],
+          "tools": [
+            "unrealbuildtool"
+          ],
+          "procedures": [
+            "inspect modules",
+            "validate blueprint boundary"
+          ]
+        },
+        "general_coding": {
+          "name": "general_coding",
+          "version": "2.0.0",
+          "domains": [
+            "code",
+            "bug",
+            "test"
+          ],
+          "tools": [
+            "git",
+            "pytest"
+          ],
+          "procedures": [
+            "reproduce",
+            "patch",
+            "validate"
+          ]
+        }
+      }
+    },
+    "context_manager": {
+      "name": "long_context_manager",
+      "default_budget": 32768
+    },
+    "stability_governor": {
+      "name": "stability_governor_v2",
+      "max_drift": 25.0,
+      "min_confidence": 0.35
+    },
+    "stable_core": {
+      "name": "stable_reasoning_core",
+      "latent_dim": 64,
+      "frozen": true
+    },
+    "plastic_learner": {
+      "name": "plastic_arithmetic_module",
+      "operations": 3,
+      "trainable_parameters": 2813
+    },
+    "consolidator": {
+      "name": "cognitive_consolidation_engine_v2",
+      "cycles": 0
+    }
+  }
+}

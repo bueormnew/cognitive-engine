@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+artifacts/checkpoints/
+artifacts/logs/
+artifacts/plots/
+artifacts/reports/*.pdf
+artifacts/reports/*.docx
+artifacts/reports/*.png
+
